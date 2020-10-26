@@ -1,0 +1,39 @@
+/* import fonts google for heading my app */
+
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@200&display=swap');
+/* change body background color */
+
+body {
+    background-color: #ffcd00;
+}
+
+/* change horizontal line background color */
+
+hr {
+    background-color: #000000;
+}
+
+/* Edit font Heading */
+
+.gs-font {
+    font-family: 'Grandstander', cursive;
+}
+
+/* use border for Jumbotron */
+
+#jumbotron {
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+.list-group-item:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+/* input styles */
+
+.task-input {
+    width: 100%;
+    border: 2px solid #333;
+    border-radius: 6px;
+}
